@@ -1,0 +1,7 @@
+﻿
+--  ------ 新建demo表，如果已存在表，则不会重复创建表 ------ 
+CREATE TABLE IF NOT EXISTS demo (
+	id   bigint(18)  NOT NULL  PRIMARY KEY  AUTO_INCREMENT,
+	name  varchar(50)  NOT NULL
+); 
+
