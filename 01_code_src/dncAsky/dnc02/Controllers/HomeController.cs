@@ -14,7 +14,7 @@ namespace Asky
             return await Task.FromResult($"askyms.com {id} {name}");
         }
 
-        //插入一条数据 /home/DemoInsert?name=名称2
+        //插入一条数据 /home/DemoInsert?name=名称3
         //返回1表示插入成功一条
         public async Task<string> DemoInsert(string name)
         {
